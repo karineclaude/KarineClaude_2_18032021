@@ -1,0 +1,32 @@
+/*##################################*/
+/*############# GRILLE #############*/
+/*#################################*/
+
+ .container {
+       width: 1230px;
+     }
+    
+    h1 {
+       color: #ffffff;
+    }
+    
+    body {
+    font-family: 'Open Sans', sans-serif;
+    }
+
+
+    nav.menu-nav ul li.btn {
+        list-style-type: none;
+        display: inline-block;
+    }
+
+    nav.menu-nav ul li.btn a {
+        color: #;
+    text-decoration: none;
+        padding: 10px;
+    }
+
+    nav.menu-nav ul li.btn:hover a {
+     color: blue;
+
+    }
