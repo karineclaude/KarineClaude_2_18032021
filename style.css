@@ -1,32 +1,113 @@
 /*##################################*/
 /*############# GRILLE #############*/
 /*#################################*/
-
- .container {
-       width: 1230px;
-     }
-    
-    h1 {
-       color: #ffffff;
-    }
-    
-    body {
+body {
     font-family: 'Open Sans', sans-serif;
-    }
+}
 
+#main-wrapper {
+    width: 1430px;
+    margin:auto;
+}
+    
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction:column;
+    margin-left: 50px;
+}
 
-    nav.menu-nav ul li.btn {
-        list-style-type: none;
-        display: inline-block;
-    }
+#search {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    flex: 1.2;
+    position: relative;
+    flex-direction:column;
+}
 
-    nav.menu-nav ul li.btn a {
-        color: #;
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+#logo img {
+    width: 100px;
+    height: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav.menu-nav ul li.btn {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav.menu-nav ul li.btn a {
+    color: #;
     text-decoration: none;
-        padding: 10px;
-    }
+    padding: 10px;
+}
 
-    nav.menu-nav ul li.btn:hover a {
-     color: blue;
+nav.menu-nav ul li.btn:hover a {
+    color: blue;
+}
 
-    }
+h1 {
+    color: #000000;
+    display: flex-start;
+    justify-content: flex-start;
+}
+
+
+section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    display:flex;
+    padding-top:50px;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+#about {
+    display: flex;
+    width: 33px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#accomodations {
+    display: flex;
+    width: 33px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#help {
+    display: flex;
+    width: 33px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+footer ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 

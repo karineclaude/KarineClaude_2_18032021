@@ -2,6 +2,7 @@
 <html>
    <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
 	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		Place this data between the <head> tags of your website -->
 <title>Page Title. Maximum length 60-70 characters</title>
@@ -9,70 +10,83 @@
 <link rel="stylesheet" type="text/css" href="style.css">
    </head>
 <body>
-
+    <div id="main-wrapper">
    <!-- Header -->
-   <header>
-    <p>
-        <img src="images/logo/Reservia.png">
-    <p>
-<nav class="menu-nav">
-    <ul>
-        <li class="btn">
-             <a href="#Hebergements">
-            Hébergements 
-            </a>
-        </li>
-        <li class="btn">
-            <a href="#Activites">
-            Activités
-            </a>
-        </li>
-        <li class="btn">
-            <a href="#Inscription">
-            S'inscire
-            </a>
-         </li>
-    </ul> 
-</nav>     
-   </header>
+        <header>
+            <div id="logo">
+                <img src="images/logo/Reservia.png" alt="logo Reservia" />
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li class="btn">
+                        <a href="#Hebergements">
+                            Hébergements 
+                        </a>
+                    </li>
+                    <li class="btn">
+                        <a href="#Activites">
+                            Activités
+                        </a>
+                    </li>
+                    <li class="btn">
+                        <a href="#Inscription">
+                            S'inscire
+                        </a>
+                    </li>
+                </ul> 
+            </nav>   
+
+            <div id="search">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p> En plein centre-ville ou en pleine nature</p>      
+            </div>
+
+        </header>
    
-   <!-- Section 1 Recherche-->
-   <section id="section_one">
-	<div class="container">
-           <div class="col-md-8">
-                   <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-    <p>
-        En plein centre-ville ou en pleine nature
-    </p>
 
-           </div>
-         
-  </div>
-   </section> 
-
-   <!-- Section 2 Hebergements-->
-   <section id="Hebergements">
-
-    <div>   
-         <h2 id="Hébergements">Hébergements à Marseille</h2>
+   <!-- Section 1 Hebergements-->
+        <section id="Hebergements">
+             <div class="col-md-8">   
+                <h2 id="Hébergements">Hébergements à Marseille</h2>
 
 
-         <a href="#">Afficher plus →</a>
-     </div>
-     <div>
-        <h3>Les plus populaires</h3>
-     </div>
+                <a href="#">Afficher plus →</a>
+            </div>
 
-   </section>
+            <div>
+                <h3>Les plus populaires</h3>
+            </div>
+        </section>
 
-   <!-- Section 3 Activites -->
-   <section id="Activites">
-    <h2>Activités à Marseille</h2>
-   </section>
-   
-   <footer>
-   </footer>
+   <!-- Section 2 Activites -->
+        <section id="Activites">
+                <h2>Activités à Marseille</h2>
+        </section>
+   </div>
 
+
+        <footer>
+
+            <div id="about"></div>
+                <h3>A propos</h3>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+            <div id="accomodations"></div>
+                <h3>Nos hebergements</h3>
+                <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
+                </ul>
+            <div id="help"></div>
+                <h3>Assistance</h3>
+                <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
+        </footer>
+    
 </body>
-
 </html>
