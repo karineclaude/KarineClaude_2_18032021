@@ -327,59 +327,46 @@ color:#0065fc;
 
 .activities-container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items :stretch;
-    height: 400px;
+    flex-direction: row;
     width: 100%;
-    column-count: 4;
 }
 
 .activity-card-one,
+.activity-card-four{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 6px 3px #b1b1b14b;
+    margin: 0 10px 0;
+}
+
+.activity-card-column2,
+.activity-card-column4 {
+width: 25%;
+}
+
 .activity-card-two, 
 .activity-card-three,
-.activity-card-four,
 .activity-card-five,
 .activity-card-six {
     background-color:#ffffff;
     display:flex;
     flex-direction: column;
     border-radius: 20px;
+    margin-bottom: 20px;
+    width:100%;
     box-shadow: 0 0 6px 3px #b1b1b14b;
 }
 
-.activity-card-one,
-.activity-card-column2,
-.activity-card-four,
-.activity-card-column4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 25%;
-    height: 100%;
-    margin-right: 10px;
-}
 
+.activities-container { 
 
-.activity-card-two,
-.activity-card-three,
-.activity-card-five,
-.activity-card-six {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  
-}
-
-.activity-card-two {
-    flex-basis: 60%;
-}
-
-.activities-container img {
     object-fit:cover;
     background-position: center;
     border-radius: 12px 12px 0 0;
+    width:100%
 }
 
 footer {
@@ -447,14 +434,12 @@ footer ul li a {
     flex-direction: column-reverse;
    }
 
-
-
     aside {
-        width: 100vh;
+    width: 100%;
     }
    
     #main-hotel{
-    width: 100vh;
+    width: 100%;
     background-color: #ffffff;
    }
     
