@@ -42,7 +42,6 @@ justify-content: space-between;
 
 #logo img {
     width: 100px;
-    height: 30px;
 }
 
 .nav-signup a {
@@ -115,6 +114,28 @@ input[type=button] {
     border: 2px #0065fc solid;
 }
 
+
+.button {
+    width:180px;
+    padding: 15px 05px;
+    margin-left: -4px;
+    background-color: #0065fc;
+    cursor:pointer;
+    flex: 1 1 100%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color:#ffffff;
+    border: 2px #0065fc solid;
+}
+
+
+.search-icons {
+visibility: hidden;
+}
+
 input[type=text]{
     padding: 15px 0;
     border: 2px #F2F2F2 solid;
@@ -136,6 +157,7 @@ input[type=text]{
 
 #filters-container p {
     margin-right: 10px;
+    text-transform: capitalize;
 }
 
 .filters {
@@ -319,10 +341,15 @@ margin-top: 40px;
     border-radius: 20px 0 0 20px;
     height: auto;
 }
+.fa-star {
+    color: #d9d9d9;
+    }
 
 .checked {
 color:#0065fc;
 }
+
+
 
 
 .activities-container {
@@ -430,9 +457,17 @@ footer {
     padding-top:50px;
     flex-shrink: 0;
     margin: 0 auto;
-    position: relative;S
+    position: relative;
+}
+    
+.footer-container { 
+    width: 90%;
+    display:flex;
+    justify-content: center;
 
 }
+
+
 .about {
     display: flex;
     flex-direction: column;
@@ -469,15 +504,48 @@ footer ul li a {
 
 
 /* Nouvelles règles si la fenêtre fait au plus 767px de large */
-@media only screen and (min-width: 375px) and (max-width: 767px) {
-    
+@media screen and (min-width: 375px) and (max-width: 767px) {
+
+
+    header {
+        display: flex;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+
+
+    .nav-bar {
+    flex-wrap:wrap;
+    }
     
     .menu {
     flex-direction: column-reverse;
     flex-wrap: wrap;
+    align-items: flex-end;
+    width: 100%;
     }
 
+    .nav-list {
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 20px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .button {
+        width: 60px;
+
+    }
+
+    .button p {
+        visibility: hidden;
+    }
+
+    #filters-container {
+       display: flex;
+    flex-wrap:wrap;
+    }
    .filters {
+    display: flex;
     flex-wrap: wrap;
    } 
 
@@ -498,9 +566,23 @@ footer ul li a {
    .hotel-card {
     width: 100%;
    }
+   .activities-container {
+    display: flex;
+    flex-direction: column;
+    }
+
+   .activity-card-one {
+    width: 95%;
+    height: 200px;
+}   
+
+    .activity-card-one img,
+    .activity-card-four img {
+    height: 80%;
+}
 
 
-    footer {
+    .footer-container {
         width: 100%;
         display: flex;
         flex-direction: column;
