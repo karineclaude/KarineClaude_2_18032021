@@ -340,7 +340,7 @@ aside {
     align-items: center;
     padding-right: 30px;
 }
-    
+
 
 .popular-hotels-container {
     display: flex;
@@ -617,7 +617,7 @@ footer ul li a {
         border:none;
     }
 
-    .button p {
+    .button span {
         display: none;
     }
 
