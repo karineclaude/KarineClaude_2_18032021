@@ -142,7 +142,7 @@ input[type=button] {
     text-align: center;
     text-decoration: none;
     color:#ffffff;
-    border: 2px #0065fc solid;
+    border: 2px solid;
 }
 
 
@@ -215,7 +215,7 @@ input[type=text]{
     transition: 0.5s;
     background: #deebff ;
     border: none;
-    border: 2px #deebff solid;
+    border: 2px solid;
 }
 
 .filters .fas fa-info{
@@ -299,7 +299,7 @@ align-items: baseline;
     flex-direction: column;
     margin: 0 6px 50px 0px;
     border-radius: 20px;
-    border: 3px #ffffff solid;
+    border: 3px solid;
     box-shadow: 0 0 6px 3px #b1b1b14b;
 }
 
@@ -340,7 +340,7 @@ aside {
     align-items: center;
     padding-right: 30px;
 }
-
+    
 
 .popular-hotels-container {
     display: flex;
@@ -355,7 +355,7 @@ aside {
     display: flex;
     margin: 20px 10px;
     border-radius: 20px;
-    border: 3px #ffffff solid;
+    border: 3px solid;
     box-shadow: 0 0 6px 3px #b1b1b14b;
     height: 150px;
 }
@@ -528,9 +528,9 @@ footer {
 .help-list {
     list-style-type:none;    
     text-decoration: none;
-    margin-block-start: 0;
-    padding-inline-start: 0px;
-    padding: 12px 0;
+    /*margin-block-start: 0;
+    padding-inline-start: 0px;*/
+    padding: 12px 0; 
 }
 
 footer ul li a {
