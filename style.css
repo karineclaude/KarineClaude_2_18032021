@@ -45,7 +45,6 @@ margin: 0;
 }
 
 a {
-    color: #000000;
     text-decoration: none;
 }
 
@@ -299,13 +298,14 @@ align-items: baseline;
     flex-direction: column;
     margin: 0 6px 50px 0px;
     border-radius: 20px;
-    border: 3px solid;
     box-shadow: 0 0 6px 3px #b1b1b14b;
+    
 }
 
 .hotel-card img {
     object-fit: cover;
-    width: 100%;
+    width: 95%;
+    margin:5px;
     border-radius: 20px 20px 0 0 ;
     height: 115px;
 }
@@ -316,7 +316,8 @@ align-items: baseline;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-bottom: 10PX;
+    padding-bottom: 10px;
+    color: #000;
 }
 
 .hotel-card-info H3 {
@@ -376,7 +377,8 @@ margin-top: 40px;
     object-fit: cover;
     width: 30%;
     border-radius: 20px 0 0 20px;
-    height: auto;
+    height: 94%;
+    margin: 5px;
 }
 .fa-star {
     color: #d9d9d9;
@@ -390,6 +392,7 @@ color:#0065fc;
     display: flex;
     flex-direction: row;
     width: 100%;
+    color: #000;
 }
 
 .activity-card-one,
