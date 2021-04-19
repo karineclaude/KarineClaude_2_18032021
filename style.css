@@ -4,6 +4,7 @@ body {
     font-weight: normal;
     display: block;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
  p {
@@ -742,7 +743,7 @@ footer ul li a {
     .help,
     .accomodations {
     width: 100%;
-    margin-left: 30px;
+    padding-left: 10px;
     }
 
 }
